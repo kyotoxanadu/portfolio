@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+font-family: ff-more-web-pro-condensed, serif;
+ text-align: center;
+
+}
+
+
+p.small {
+  line-height: 1;
+  font-size: 20px;
+  text-align: center;
+}
+
+p.smallish {
+  line-height: 1;
+  font-size: 20px;
+  text-align: center;
+}
+
+p.bigish {
+  line-height: 1;
+  font-size: 18px;
+  text-align: center;
+}
+
+p.big {
+  line-height: 1;
+  font-size: 30px;
+  text-align: center;
+}
+
+p.bigger {
+  line-height: 1;
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<div id="Home"></div>
+
+<ul>
+  <li><a href="#Home">HOME</a></li>
+  <li><a href="#Graphic Design">GRAPHIC DESIGN</a></li>
+  <li><a href="#Mass Comm">MASS COMM</a></li>
+  <li><a href="#Music">MUSIC</a></li>
+</ul>
+
+
+<br />
+<br />
+<b><p class="small"> 
+CREATIVE DEVELOPER <br /> </p>
+<b><p class="big"> LESA KETTERING</p>
+aka REN SATO
+</b>
+<br />
+<br />
+<br />
+<marquee behavior="scroll" bgcolor="cyan" loop="-1" width="30%"><i><font color="blue"><strong>Today's date is :<span id="time"></span></strong>  </font></i></marquee> 
+<script>
+var today = new Date();
+ document.getElementById('time').innerHTML=today;
+</script>
+<br />
+<br />
+<br />
+
+
+<div id="Graphic Design"><p class="bigger"> GRAPHIC DESIGN </p></div>
+<br />
+
+<p class="smallish"> <a href="https://www.epcc.edu/Services/ISC">EPCC VV ISC Technician</a></p>
+<p class="bigish"> 
+I assist staff and instructors with their creative projects at <a href="https://epcc.edu">El Paso Community College.</a>
+</p>
+<br />
+<br />
+
+<img src="https://github.com/kyotoxanadu/portfolio/blob/main/Screenshot%202026-06-10%20230525.png?raw=true" width="700px">
+<img src="https://github.com/kyotoxanadu/portfolio/blob/main/Screenshot%202026-06-10%20230544.png?raw=true" width="700px">
+
+<br />
+<br />
+
+<p class="smallish"> GAME DEVELOPER ON</p>
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2340520/fc381c5dd7c06a922ac5be730386f7981da612df/header.jpg?t=1781107940" alt="Tales of Seikyu">
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/vXd15Rp1LZo" title="Tales of Seikyu - Official Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br/>
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg?t=1780605554" alt="Mina the Hollower">
+
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/KCggdKGyg9M" title="Mina the Hollower - Launch Trailer | PS5 Games" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br/>
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/573320/header.jpg?t=1727275124" alt="Underhero">
+<iframe width="750px" height="400px"  src="https://www.youtube.com/embed/gk6wu-3eEso" title="Underhero - Announce Trailer | PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br/>
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2799720/header.jpg?t=1760665000" alt="A Date with Death: Beyond the Bet">
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/gykuK8-BuN0" title="A Date With Death - Official Reveal Trailer | Future of Play 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br/>
+
+<br/><br/>
+<p class="smallish"> OKIAMI GAMES</p>
+<p class="bigish"> 
+<img src="https://img.itch.zone/aW1nLzI3NDIwNTMyLnBuZw==/original/8aYB%2Bh.png" alt="Okiami Games" width="750px"><br/>
+I am one of two creative developers who founded <a href="https://okiamigames.itch.io/">Okiami Games</a>, <br />
+an indie-dev studio specializing in free and unique story-rich titles.
+
+<br/><br/>
+
+Our game <a href="https://itch.io/jam/jamsepticeye/rate/3937139">Mad House</a> received critical acclaim during <br/>
+one of <a href="https://itch.io/jam/jamsepticeye">itch.io's biggest game jams</a>, hosted by <a href="https://en.wikipedia.org/wiki/Jacksepticeye">Jack Septiceye</a>, <br/>
+a YouTube Content Creator with 30 million subscribers.<br/><br/>
+We ranked within the top 500 games globally.<br/><br/><br/>
+</p>
+
+<a href="https://okiamigames.itch.io/final-festival-re-upload"><img src="https://img.itch.zone/aW1nLzI2NjUzNjg4LmpwZWc=/315x250%23c/cw1uJe.jpeg"></a><a href="https://okiamigames.itch.io/trouble-in-truffleopolis-re-upload"><img src="https://img.itch.zone/aW1nLzI2NjUzNzAzLmpwZWc=/315x250%23c/MFI8Gs.jpeg"></a>
+
+
+<a href="https://okiamigames.itch.io/love-not-found-re-upload"><img src="https://img.itch.zone/aW1nLzI2NjUzNjk1LmpwZWc=/315x250%23c/Y7bSXk.jpeg"></a>
+
+<a href="https://okiamigames.itch.io/mad-house"><img src="https://img.itch.zone/aW1nLzIzNDczMTc2LnBuZw==/315x250%23c/lTMAAi.png"></a>
+
+<a href="https://okiamigames.itch.io/himawari"><img src="https://img.itch.zone/aW1nLzI1MzA0MTA2LmdpZg==/original/oNRTs2.gif"></a>
+
+
+<br />
+<br />
+<br />
+
+
+<div id='Mass Comm'><p class="bigger"> MASS COMM </p></div>
+<br />
+
+<br />
+
+<p class="bigger"> CREATIVE PROCESS </p>
+<br />
+
+<p class="big"> The Creation of Mad House </p>
+<br />
+
+<img src="https://i.audiomack.com/silverag/e3b2660d65.webp?width=1200" width="200px" alt="OFF Game">
+
+<p class="bigish"> 
+
+I was inspired to create a game based on my own personal experiences about <br/>
+a moment of my life in which I felt like it was so bad-it couldn't possibly be real.<br/>
+I wanted to tell a story to inspire others that the death of something can be a <br/>
+chance for hope, peace, and a new beginning. And that the goodness in life comes from <br/>
+a strong will, hard work, and determination.<br/><br/>
+
+I was inspired by Mortis Ghost's OFF, and Persona 3.<br/><br/>
+
+<img src="https://iili.io/J0KntUl.gif" width="600px" alt="Persona 3 Reload"><br/><br/>
+
+
+I also took inspiration from music, pinpointing lyrics and feelings that represented <br/>
+a loss of hope, and a rediscovery of the self.<br/><br/>
+
+<p class="big">
+
+<iframe width="750px" height="400px"src="https://www.youtube.com/embed/FAn6k36wglg" title="Porter Robinson – ‘Cheerleader’ (live for Like A Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/><br/>
+
+"It's kinda sad how <br/>
+it's not your fault you're living in a madhouse<br/>
+I can't back down -<br/>
+Aren't you tired of blending into the background?"<br/>
+
+
+<br/><br/>
+
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/IXdDNBQ9bJU?list=RDIXdDNBQ9bJU" title="Relient K | More Than Useless (Official Audio Stream)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br/><br/>
+
+ "Convincing myself the world's doing just fine <br/>
+ Without me (without me)"<br/>
+ <br/>
+ It's my life<br/>
+And my right to use it like I should<br/>
+Like He would<br/>
+For the good<br/>
+Of everything that I would ever know<br/>
+<br/><br/><br/>
+ 
+ </p>
+
+
+<p class="big">Final Product</p>
+
+<img src="https://img.itch.zone/aW1nLzIzNTAzNzI2LnBuZw==/original/9uqS7J.png" width="700">
+
+<img src="https://img.itch.zone/aW1nLzIzNTAzNzU3LnBuZw==/original/cYarvP.png" width="700">
+
+<img src="https://img.itch.zone/aW1hZ2UvMzkzNzEzOS8yMzUwNDI3OS5wbmc=/original/mRzW74.png" width="500">
+
+<img src="https://img.itch.zone/aW1hZ2UvMzkzNzEzOS8yMzUwNDI4MS5wbmc=/original/UIVbR6.png" width="500">
+
+<img src="https://img.itch.zone/aW1hZ2UvMzkzNzEzOS8yMzUwNDI4Ny5wbmc=/original/SPGmQk.png" width="500">
+
+<img src="https://img.itch.zone/aW1hZ2UvMzkzNzEzOS8yMzUwNDI5MS5wbmc=/original/HmDdqu.png" width="500">
+
+
+<br/><br/><br/>
+<p class="smallish"> WRITER</p>
+
+<p class="big">
+<a href="https://han-tani.itch.io/10-years-of-anodyne-a-fan-book">ANALGESIC PRODUCTIONS:  <br/> 10 Years of Anodyne: A Fan Book</a></p>
+
+<br/>
+
+<p class="bigish"> 
+"For the 10th Anniversary of Anodyne, we asked fans for fan art and their thoughts <br/>
+about their favorite moments in Anodyne, memories from the time they played it, <br/>
+and what it means to them. The responses were surprising, moving, detailed... <br/>
+we collected these responses and compiled them into a short book for everyone to enjoy! <br/>
+<br/>
+Enjoy thinking back on your time spent with Anodyne as you read through everyone's thoughts."<br/>
+</p>
+
+<br/><br/><br/>
+
+
+<img src="https://img.itch.zone/aW1hZ2UvMjQ2NzY3My8xNDgwNzg2Ny5qcGc=/original/fvYjN5.jpg" width="600px" alt="10 Years of Anodyne">
+<br/><br/>
+
+<img src="https://img.itch.zone/aW1hZ2UvMjQ2NzY3My8xNDY0MzgyNS5wbmc=/original/vJbK2i.png" width="600px" alt="10 Years of Anodyne">
+<br/><br/><br/><br/>
+
+<div id="Music"><p class="bigger"> MUSIC </p></div>
+<br />
+
+<iframe width="750px" height="400px"src="https://www.youtube.com/embed/3TQHXQFTayc" title="Metaphor: ReFantazio - Ode to Heroes (Piano Cover) Ren Chung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/LlM76BbOaBo" title="Persona 3 Reload - 3/31 (Remix) Ren Chung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="750px" height="400px"src="https://www.youtube.com/embed/1XnAuUvqwmo?list=RD1XnAuUvqwmo" title="Angeline Era - Announcement Trailer (Remix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="750px" height="400px" src="https://www.youtube.com/embed/hpJnMLX6nOU?list=RDhpJnMLX6nOU" title="Mad House - Full Album OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<br/><br/><br/>
+<br/><br/><br/>
+©Ren Sato. All other trademarks, logos and copyrights are property of their respective owners.
+
+
+</body>
+</html>
+
+
